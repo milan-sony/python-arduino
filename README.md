@@ -8,7 +8,7 @@ Testing Arduino with Python - This is a simple program that blinks an LED using 
 
 `pyserial`
 
-`pyfirmata`
+`pyFirmata`
 
 ### Read documentations
 
