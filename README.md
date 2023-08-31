@@ -14,7 +14,7 @@ Testing Arduino with Python - This is a simple program that blinks an LED using 
 
 <a href="https://pyserial.readthedocs.io/en/latest/">pyserial</a>
 
-<a href="https://pyfirmata.readthedocs.io/en/latest/index.html">pyFirmata</a>
+<a href="https://pyfirmata.readthedocs.io/en/latest/index.html">pyFirmata</a> or <a href="https://arduinofactory.com/pyfirmata/">pyFirmata</a>
 
 > Note:
 > pyserial and pyfirmata works only on python version 3.10 and downgrade versions
