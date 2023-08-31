@@ -1,5 +1,5 @@
-import time
 from pyfirmata import Arduino
+import time
 
 # Define the port where Arduino is connected
 port = 'COM3'  # Replace with your port
@@ -8,9 +8,10 @@ port = 'COM3'  # Replace with your port
 board = Arduino(port)
 
 # Set up the pin modes
+# d => digital, 10 => Number of the pin, o => output
 led_pin = board.get_pin('d:10:o')
 
-# Blink the LED
+# Blink the LED infinte times
 while True:
     # Turn the LED ON
     led_pin.write(1)  
